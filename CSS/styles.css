@@ -1,0 +1,146 @@
+html {
+  font-size: 100%;
+}
+
+/*Nav bar*/
+
+.stx-back-top img {
+  height: 5rem;
+}
+.stx-top-cases {
+  margin: 0.6rem auto;
+  padding: 0;
+}
+.stx-top-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  display: table;
+}
+a {
+  color: #000000 !important;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+
+/*Background/title*/
+
+.stx-fond {
+  height: 42vw;
+  background-image: url("../assets/top.jpg");
+  background-position: 0% 22%;
+  background-size: cover;
+}
+.stx-fond-textes {
+  margin: 18vw 0 3vw 0;
+  color: white;
+  font-size: 6rem;
+  font-family: "Maven Pro", Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-style: bold;
+}
+@media (max-width: 768px) {
+  .stx-fond-textes {
+    font-size: 2rem;
+  }
+}
+.stx-fond-sous-texte {
+  font-size: 2.55vw;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*texte/image*/
+
+.stx-qui {
+  font-size: 1.2rem;
+  padding: 1.5vw 1.5vw 0 1.5vw;
+}
+.stx-soph-bord {
+  margin: 0;
+  padding: 0;
+}
+.stx-lorem,
+.stx-sn,
+.stx-soutitre {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 1.5vw;
+  text-align: justify;
+}
+.stx-sop {
+  width: 100%;
+  height: auto;
+}
+.stx-sophie {
+  font-size: 2rem;
+  text-align: right;
+}
+
+/*Matchup-images*/
+
+.stx-back-matchup {
+  background-color: black;
+}
+.stx-créations {
+  margin: 2rem 0 0 0;
+  font-size: 2.5em;
+  font-family: "Maven Pro", Arial, Helvetica, sans-serif;
+  color: white;
+  font-style: bold;
+  text-align: center;
+}
+.stx-matchup1 {
+  margin: 1.5rem;
+}
+.stx-matchup img {
+  width: 100%;
+  padding: 1rem;
+}
+
+.stx-ph-cases {
+  padding: 1000px;
+  margin: 0;
+}
+/*Tableau*/
+
+.stx-tarifs,
+.stx-Contactez {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Maven Pro", Arial, Helvetica, sans-serif;
+  font-style: none;
+  color: black;
+  padding: 2rem 0 2rem 0;
+}
+.stx-center {
+  font-size: 1.7rem;
+  border: 1px solid black;
+  margin: auto;
+  width: 50% !important;
+}
+
+.stx-soutitre {
+  font-size: 2rem;
+}
+.stx-color {
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .stx-center {
+    font-size: 0.75rem;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.stx-contact {
+background-color: black;
+color: white;
+}
+/*Formulaire Contactez Moi*/
